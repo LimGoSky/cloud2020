@@ -22,6 +22,9 @@
         <module>cloudalibaba-sentinel-service8401</module>
         <module>cloudalibaba-provider-payment9003</module>
         <module>cloudalibaba-provider-payment9004</module>
+        <module>seata-account-service2003</module>
+        <module>seata-order-service2001</module>
+        <module>seata-storage-service2002</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -72,7 +75,7 @@
             </dependency>
             <dependency>
                 <groupId>com.alibaba</groupId>
-                <artifactId>druid</artifactId>
+                <artifactId>druid-spring-boot-starter</artifactId>
                 <version>${druid.version}</version>
             </dependency>
             <dependency>

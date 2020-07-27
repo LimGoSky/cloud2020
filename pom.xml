@@ -25,6 +25,7 @@
         <module>seata-account-service2003</module>
         <module>seata-order-service2001</module>
         <module>seata-storage-service2002</module>
+        <module>cloud-providerconsul-payment8006</module>
     </modules>
     <packaging>pom</packaging>
 

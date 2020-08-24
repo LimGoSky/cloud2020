@@ -14,6 +14,7 @@ spring:
             - springcloud-config
       #读取分支
       label: master
+#访问查看文件地址： http://localhost:3344/master/config-dev.yml
 
   #rabbit相关配置
 #  rabbitmq:

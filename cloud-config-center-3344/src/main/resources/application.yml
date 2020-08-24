@@ -8,19 +8,19 @@ spring:
     config:
       server:
         git:
-          uri: git@github.com:TNoOne/cloud-config.git #github仓库上面的git仓库名字
+          uri: https://github.com/LimGoSky/cloud2020.git #github仓库上面的git仓库名字
           ##搜索目录
           search-paths:
-            - cloud-config
+            - springcloud-config
       #读取分支
       label: master
 
   #rabbit相关配置
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+#    username: guest
+#    password: guest
 
 eureka:
   client:

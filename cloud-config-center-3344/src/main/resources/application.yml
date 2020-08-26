@@ -17,11 +17,11 @@ spring:
 #访问查看文件地址： http://localhost:3344/master/config-dev.yml
 
   #rabbit相关配置
-#  rabbitmq:
-#    host: localhost
-#    port: 5672
-#    username: guest
-#    password: guest
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: mypassword
 
 eureka:
   client:

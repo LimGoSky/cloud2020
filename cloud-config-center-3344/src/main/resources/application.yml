@@ -18,7 +18,7 @@ spring:
 
   #rabbit相关配置
   rabbitmq:
-    host: localhost
+    host: 192.168.1.5
     port: 5672
     username: admin
     password: mypassword
@@ -34,3 +34,6 @@ management:
     web:
       exposure:
         include: 'bus-refresh'  #凡是暴露监控、刷新的都要有actuator依赖，bus-refresh就是actuator的刷新操作
+
+#服务端调用接口，客户端配置改变 curl -X POST "http://localhost:3344/actuator/bus-refresh
+#定点通知某个服务  http://localhost:3344/actuator/bus-refresh/config-client:3355
